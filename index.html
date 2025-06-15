@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pooja Bharti – Web Designer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <!-- Container1: Profile & Skills -->
+    <div class="container1">
+      <div class="Profile">
+        <img src="pic.jpeg" alt="Pooja Bharti">
+        <p>Pooja Bharti</p>
+        <p>9142267528</p>
+        <p>poojabhartipoojabharti8@gmail.com</p>
+        <p>Patna, Bihar, India, 803212</p>
+      </div>
+
+      <div class="skills">
+        <h1>SKILLS</h1>
+
+        <div class="skills-Item">
+          <p><b>HTML</b></p>
+          <div class="progress-bar">
+            <div class="progress" data-width="100%"></div>
+          </div>
+        </div>
+
+        <!-- More skill bars -->
+        <div class="skills-Item">
+          <p><b>CSS</b></p>
+          <div class="progress-bar">
+            <div class="progress" data-width="90%"></div>
+          </div>
+        </div>
+
+        <div class="skills-Item">
+          <p><b>JAVASCRIPT</b></p>
+          <div class="progress-bar">
+            <div class="progress" data-width="50%"></div>
+          </div>
+        </div>
+
+        <div class="skills-Item">
+          <p><b>C Programming Language</b></p>
+          <div class="progress-bar">
+            <div class="progress" data-width="90%"></div>
+          </div>
+        </div>
+
+        <div class="skills-Item">
+          <p><b>C++ Programming Language</b></p>
+          <div class="progress-bar">
+            <div class="progress" data-width="80%"></div>
+          </div>
+        </div>
+
+        <div class="skills-Item">
+          <p><b>Data Structures & Programming</b></p>
+          <div class="progress-bar">
+            <div class="progress" data-width="70%"></div>
+          </div>
+        </div>
+
+        <div class="circle-progress">
+         <h1>English</h1>
+     <div class="outer-circle">
+    <div class="inner-circle">
+      <div class="percentage-text">85%</div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div> <!-- closes .container1 -->
+
+    <!-- Container2: Title & Role -->
+    <div class="container2">
+        <div class="heading">
+         <h1>POOJA BHARTI</h1>
+       <p>Web Developer</p>
+        </div>
+    
+
+      <div class="Aboutme">
+        <h1><img src=person-7243410_1280.png>About me</h1>
+         </div>
+        <p>m ipsum dolor sit amet consectetur adipisicing elit. Rerum libero corrupti nostrum sequi tempora nisi iste! Lorem ipsum dolor 
+          sit amet consectetur adipisicing elit. In consequuntur explicabo quisquam veniam fuga tempora ab obcaecati maxime aperiam. Neque facere 
+          officia explicabo voluptatum consectetur animi soluta, repellat velit optio maiores harum. Soluta, velit.</p>
+
+
+    <div class="Education">
+      <h1><img src=img3.png>Education</h1>
+      </div>
+      <p1><b>Bachelor of Technology in Computer Science and Engineering</b></p1><br>
+      <p1>Bakhtiyarpur College of Engineering</p1><br>
+      <p1>2023-2027</p1><br>
+
+      <p2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor quis commodi a in soluta rem? Nostrum dolore harum fuga, <br>repellendus pariatur quaerat. Assumenda!</p2>
+
+      <p><b>2020-2022</b></p>
+      <p>Laxmi college,sitamarhi</p>
+
+    <div class="Experience">
+      <h1><img src=pen.png>Experience</h1>
+        </div>
+      <h2>Internship</h2>
+      <p>SARV INFOTECH</p>
+      <p>Web Developement</p>
+    </div> <!-- closes .container2 -->
+
+  </div> <!-- closes .container -->
+
+  <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const progresses = document.querySelectorAll('.progress');
+    progresses.forEach(progress => {
+      const width = progress.getAttribute('data-width');
+      progress.style.width = width;
+    });
+  });
+</script>
+
+</body>
+
+
+</html>

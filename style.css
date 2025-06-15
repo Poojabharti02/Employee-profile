@@ -1,0 +1,153 @@
+.container{
+   display: flex;
+   align-items: flex-start;
+            
+}
+.container1{
+    height:100%;
+    width:50px;
+    background-color: blue;
+  flex: 0 0 20%;
+}
+.Profile p{
+    text-align: center;
+    margin:2px;
+}
+.Profile img{
+     height: 150px; 
+    width: 150px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    margin-bottom: 15px; 
+    background-color: white;
+    display: block; 
+    padding: 10px; 
+    margin:auto;
+}
+.skills h1{
+    text-align: center;
+    margin-top: 10px;
+}
+.skills-Item p{
+    margin-top:0px;
+    margin-bottom: 2px;
+}
+/* Progress bar container */
+.progress-bar {
+  background-color: #ddd;
+  border-radius: 10px;
+  height: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+
+/* Progress fill */
+.progress {
+  background-color: #4CAF50;
+  height: 100%;
+  width: 0; /* Default: hidden */
+  transition: width 1.5s ease-in-out;
+  border-radius: 10px;
+}
+
+.circle-progress h1{
+    object-fit: cover; 
+    margin-bottom: 15px; 
+    padding: 10px; 
+    margin:auto;
+    justify-content: center;
+    text-align: center;
+    border-width: 5px;
+    align-items: center;
+    display: flex;
+}
+.circle-progress {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.outer-circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  background: conic-gradient(#4caf50 85%, #eee 0%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+}
+
+.inner-circle {
+  width: 90px;
+  height: 90px;
+  background-color: white; /* inner circle background */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.percentage-text {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
+
+
+
+
+  .container2{
+   width: 100%;
+ position: relative;
+  flex: 0 0 80%; 
+ height:100%;
+        
+}
+  .heading {
+  background-image: url('pic1.jpg');
+  background-size: cover;       /* Makes image cover the full div */
+  background-position: center;  /* Centers the image */
+  background-repeat: no-repeat; /* Prevents image repetition */
+  padding: 20px;                /* Adds space inside */
+  border-radius: 10px;          /* Optional: rounded corners */
+
+
+}
+.Aboutme img{
+  height:30px;
+  width:35px;
+}
+.Aboutme{
+  height:40px;
+  width:100%;
+  background-color: skyblue;
+}
+.Aboutme h1{
+  gap:10px;
+}
+.Education img{
+  height:30px;
+  width:35px
+}
+.Education{
+  height:40px;
+  width:100%;
+  background-color: skyblue;
+}
+.Education p1{
+  margin:10px;
+}
+.Education p2{
+  margin:55px;
+}
+.Experience img{
+  height:30px;
+  width:35px;
+}
+.Experience{
+  height:40px;
+  width:100%;
+  background-color: skyblue;
+}
